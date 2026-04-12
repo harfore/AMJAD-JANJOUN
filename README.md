@@ -1,2 +1,2 @@
-# AMJAD-JANJOUN
+# AMJAD JANJOUN
 Showcase of fashion design projects.
