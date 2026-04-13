@@ -1,5 +1,5 @@
 import page2 from '../assets/images/page2.png';
-import page3 from '../assets/images/page3.png';
+// import page3 from '../assets/images/page3.png';
 import page4 from '../assets/images/page4.png';
 import page5 from '../assets/images/page5.png';
 import page6 from '../assets/images/page6.png';
@@ -74,7 +74,6 @@ const projects = [
         title: "PACK YOUR BODY",
         images: [
             { src: page2 },
-            { src: page3 },
             { src: page4 },
         ],
         description: "Design, création et direction artistique. Vêtements inspirés d'emballage en carton, de corps et de dimensions, transformé en vêtements. Ce projet est réalisé en laine bouillie.",
@@ -161,6 +160,7 @@ const projects = [
             { src: page30 },
             { src: page31 },
             { src: page32 },
+            { src: page33 },
             { src: page69 },
             { src: page70 },
         ],
@@ -170,7 +170,6 @@ const projects = [
         index: 9,
         title: "",
         images: [
-            { src: page33 },
             { src: page34 },
             { src: page35 }
         ],
@@ -178,31 +177,15 @@ const projects = [
     },
     {
         index: 10,
-        title: "CITIZEN WATCH IMAGE",
+        title: "",
         images: [
-            { src: page36 },
-            { src: page37 },
-            { src: page38 },
-            { src: page39 },
-            { src: page40 },
-            { src: page41 }
-        ],
-        description: " "
+            { src: page62 },
+            { src: page63 },
+            { src: page64 }
+        ]
     },
     {
         index: 11,
-        title: "CITIZEN PRESS DAY",
-        images: [
-            { src: page42 },
-            { src: page43 },
-            { src: page44 },
-            { src: page45 },
-            { src: page46 },
-            { src: page47 },
-        ],
-    },
-    {
-        index: 12,
         title: "SUPER TITANIUM EVENT",
         images: [
             { src: page48 },
@@ -212,7 +195,7 @@ const projects = [
         ],
     },
     {
-        index: 13,
+        index: 12,
         title: "FRÉDÉRIC CONSTANT EVENT AT LE BON MARCHÉ RIVE GAUCHE SALON PRIVÉ",
         images: [
             { src: page52 },
@@ -220,7 +203,7 @@ const projects = [
         ]
     },
     {
-        index: 14,
+        index: 13,
         title: "PR EVENTS",
         images: [
             { src: page54 },
@@ -238,13 +221,29 @@ const projects = [
         ]
     },
     {
-        index: 15,
-        title: "",
+        index: 14,
+        title: "CITIZEN PRESS DAY",
         images: [
-            { src: page62 },
-            { src: page63 },
-            { src: page64 }
-        ]
+            { src: page42 },
+            { src: page43 },
+            { src: page44 },
+            { src: page45 },
+            { src: page46 },
+            { src: page47 },
+        ],
+    },
+    {
+        index: 15,
+        title: "CITIZEN WATCH IMAGE",
+        images: [
+            { src: page36 },
+            { src: page37 },
+            { src: page38 },
+            { src: page39 },
+            { src: page40 },
+            { src: page41 }
+        ],
+        description: " "
     },
 ];
 

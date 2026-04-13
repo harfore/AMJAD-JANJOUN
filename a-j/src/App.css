@@ -41,7 +41,7 @@
 .contact-links {
   display: flex;
   flex-direction: row;
-  margin: 2rem;
+  margin: 0 2rem;
   padding-top: 4.5rem;
   justify-content: center;
 }
