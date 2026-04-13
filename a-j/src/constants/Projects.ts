@@ -152,6 +152,15 @@ const projects = [
     },
     {
         index: 8,
+        title: "",
+        images: [
+            { src: page62 },
+            { src: page63 },
+            { src: page64 }
+        ]
+    },
+    {
+        index: 9,
         title: "PHOTOGRAPHY",
         images: [
             { src: page27 },
@@ -167,22 +176,13 @@ const projects = [
         description: " "
     },
     {
-        index: 9,
-        title: "",
+        index: 10,
+        title: "SNS CONTENT",
         images: [
             { src: page34 },
             { src: page35 }
         ],
         description: " "
-    },
-    {
-        index: 10,
-        title: "",
-        images: [
-            { src: page62 },
-            { src: page63 },
-            { src: page64 }
-        ]
     },
     {
         index: 11,
