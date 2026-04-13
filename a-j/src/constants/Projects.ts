@@ -153,17 +153,10 @@ const projects = [
     },
     {
         index: 8,
-        title: "POLAROIDS",
+        title: "PHOTOGRAPHY",
         images: [
             { src: page27 },
-            { src: page28 }
-        ],
-        description: " "
-    },
-    {
-        index: 9,
-        title: "",
-        images: [
+            { src: page28 },
             { src: page29 },
             { src: page30 },
             { src: page31 },
@@ -174,7 +167,7 @@ const projects = [
         description: " "
     },
     {
-        index: 10,
+        index: 9,
         title: "",
         images: [
             { src: page33 },
@@ -184,8 +177,8 @@ const projects = [
         description: " "
     },
     {
-        index: 11,
-        title: "CITIZEN WATCH",
+        index: 10,
+        title: "CITIZEN WATCH IMAGE",
         images: [
             { src: page36 },
             { src: page37 },
@@ -197,7 +190,7 @@ const projects = [
         description: " "
     },
     {
-        index: 12,
+        index: 11,
         title: "CITIZEN PRESS DAY",
         images: [
             { src: page42 },
@@ -209,7 +202,7 @@ const projects = [
         ],
     },
     {
-        index: 13,
+        index: 12,
         title: "SUPER TITANIUM EVENT",
         images: [
             { src: page48 },
@@ -219,7 +212,7 @@ const projects = [
         ],
     },
     {
-        index: 14,
+        index: 13,
         title: "FRÉDÉRIC CONSTANT EVENT AT LE BON MARCHÉ RIVE GAUCHE SALON PRIVÉ",
         images: [
             { src: page52 },
@@ -227,39 +220,25 @@ const projects = [
         ]
     },
     {
-        index: 15,
-        title: "ACNE STUDIOS",
+        index: 14,
+        title: "PR EVENTS",
         images: [
             { src: page54 },
-            { src: page55 }
-        ]
-    },
-    {
-        index: 16,
-        title: "UNDERCOVER",
-        images: [
+            { src: page55 },
             { src: page56 },
-            { src: page57 }
-        ]
-    },
-    {
-        index: 17,
-        title: "ROBERT WUN",
-        images: [
+            { src: page57 },
             { src: page58 },
-            { src: page59 }
-        ]
-    },
-    {
-        index: 18,
-        title: "LE GRAND DÎNER DU LOUVRE",
-        images: [
+            { src: page59 },
             { src: page60 },
-            { src: page61 }
+            { src: page61 },
+            { src: page65 },
+            { src: page66 },
+            { src: page67 },
+            { src: page68 }
         ]
     },
     {
-        index: 19,
+        index: 15,
         title: "",
         images: [
             { src: page62 },
@@ -267,29 +246,6 @@ const projects = [
             { src: page64 }
         ]
     },
-    {
-        index: 20,
-        title: "Schiaparelli",
-        images: [
-            { src: page65 }
-        ]
-    },
-    {
-        index: 21,
-        title: "Isabel Marant",
-        images: [
-
-            { src: page66 },
-        ]
-    },
-    {
-        index: 22,
-        title: "Magliano",
-        images: [
-            { src: page67 },
-            { src: page68 }
-        ]
-    }
 ];
 
 export default projects;
