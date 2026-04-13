@@ -7,8 +7,8 @@ function Projects() {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
     const projectsReversed = [...projects].reverse();
 
-    const openProject = (projectIndex) => {
-        setActiveProject(projectIndex);
+    const openProject = (project) => {
+        setActiveProject(project);
         setCurrentImageIndex(0);
     };
 
@@ -19,7 +19,7 @@ function Projects() {
     const nextImage = () => {
         if (activeProject !== null) {
             setCurrentImageIndex((prev) =>
-                prev + 1 >= projects[activeProject].images.length ? 0 : prev + 1
+                prev + 1 >= activeProject.images.length ? 0 : prev + 1
             );
         }
     };
@@ -27,12 +27,12 @@ function Projects() {
     const prevImage = () => {
         if (activeProject !== null) {
             setCurrentImageIndex((prev) =>
-                prev - 1 < 0 ? projects[activeProject].images.length - 1 : prev - 1
+                prev - 1 < 0 ? activeProject.images.length - 1 : prev - 1
             );
         }
     };
 
-    const currentProject = activeProject !== null ? projects[activeProject] : null;
+    const currentProject = activeProject;
 
     return (
         <div className="projects-page">
@@ -42,7 +42,7 @@ function Projects() {
                     <div
                         key={projectIndex}
                         className="project-preview"
-                        onClick={() => openProject(projectIndex)}
+                        onClick={() => openProject(project)}
                     >
                         <img
                             src={project.images[0].src}
