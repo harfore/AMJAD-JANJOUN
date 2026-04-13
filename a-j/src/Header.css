@@ -15,13 +15,12 @@
     padding: 1.25rem 0;
     font-size: var(--title-mb);
     align-items: center;
+    justify-content: center;
 }
 
 .header-element-main {
     font-size: 1.75rem;
 }
-
-
 
 .header-element-side {
     display: none;

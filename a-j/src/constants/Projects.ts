@@ -50,7 +50,23 @@ import page50 from '../assets/images/page50.jpeg';
 import page51 from '../assets/images/page51.jpeg';
 import page52 from '../assets/images/page52.jpeg';
 import page53 from '../assets/images/page53.jpeg';
-
+import page54 from '../assets/images/page54.jpeg';
+import page55 from '../assets/images/page55.jpeg';
+import page56 from '../assets/images/page56.jpeg';
+import page57 from '../assets/images/page57.jpeg';
+import page58 from '../assets/images/page58.jpeg';
+import page59 from '../assets/images/page59.jpeg';
+import page60 from '../assets/images/page60.jpeg';
+import page61 from '../assets/images/page61.jpeg';
+import page62 from '../assets/images/page62.jpeg';
+import page63 from '../assets/images/page63.jpeg';
+import page64 from '../assets/images/page64.jpeg';
+import page65 from '../assets/images/page65.jpeg';
+import page66 from '../assets/images/page66.jpeg';
+import page67 from '../assets/images/page67.jpeg';
+import page68 from '../assets/images/page68.jpeg';
+import page69 from '../assets/images/page69.jpeg';
+import page70 from '../assets/images/page70.jpeg';
 
 const projects = [
     {
@@ -152,6 +168,8 @@ const projects = [
             { src: page30 },
             { src: page31 },
             { src: page32 },
+            { src: page69 },
+            { src: page70 },
         ],
         description: " "
     },
@@ -202,10 +220,74 @@ const projects = [
     },
     {
         index: 14,
-        title: "",
+        title: "FRÉDÉRIC CONSTANT EVENT AT LE BON MARCHÉ RIVE GAUCHE SALON PRIVÉ",
         images: [
             { src: page52 },
             { src: page53 },
+        ]
+    },
+    {
+        index: 15,
+        title: "ACNE STUDIOS",
+        images: [
+            { src: page54 },
+            { src: page55 }
+        ]
+    },
+    {
+        index: 16,
+        title: "UNDERCOVER",
+        images: [
+            { src: page56 },
+            { src: page57 }
+        ]
+    },
+    {
+        index: 17,
+        title: "ROBERT WUN",
+        images: [
+            { src: page58 },
+            { src: page59 }
+        ]
+    },
+    {
+        index: 18,
+        title: "LE GRAND DÎNER DU LOUVRE",
+        images: [
+            { src: page60 },
+            { src: page61 }
+        ]
+    },
+    {
+        index: 19,
+        title: "",
+        images: [
+            { src: page62 },
+            { src: page63 },
+            { src: page64 }
+        ]
+    },
+    {
+        index: 20,
+        title: "Schiaparelli",
+        images: [
+            { src: page65 }
+        ]
+    },
+    {
+        index: 21,
+        title: "Isabel Marant",
+        images: [
+
+            { src: page66 },
+        ]
+    },
+    {
+        index: 22,
+        title: "Magliano",
+        images: [
+            { src: page67 },
+            { src: page68 }
         ]
     }
 ];

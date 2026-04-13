@@ -32,7 +32,27 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: row;
+  margin: 2rem;
+  padding-top: 4.5rem;
+  justify-content: center;
+}
+
+.canal-icon {
+  width: 3rem;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.canal-icon:hover {
+  border-radius: 30%;
+  border: 1.5px solid #000;
 }
