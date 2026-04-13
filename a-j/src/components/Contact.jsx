@@ -1,0 +1,37 @@
+import Image from "next/image";
+import instagramIcon from "@public/images/contact/instagram-icon.png";
+import linkedinIcon from "@public/images/contact/linkedin-icon.png";
+import mailIcon from "@public/images/contact/mail-icon.png";
+
+export default function Footer() {
+    return (
+        <div
+            className="md:h-1/9 flex flex-row gap-20 justify-center items-center p-4 pb-20"
+            style={{ fontSize: "3vw" }}
+        >
+
+
+            <a href="https://www.linkedin.com/in/amjad-janjoun-6151a128a/">
+                <Image
+                    width={80}
+                    height={80}
+                    src={linkedinIcon}
+                    alt={"LinkedIn Link"}
+                    className="bg-white m-auto sm:w-15 transition-transform duration-300 hover:-translate-y-3">
+                </Image>
+            </a>
+
+
+            <a href="mailto:amjadjanjoun5@gmail.com">
+                <Image
+                    width={80}
+                    height={80}
+                    src={mailIcon}
+                    alt={"Mailing Link"}
+                    className="bg-white m-auto sm:w-15 transition-transform duration-300 hover:-translate-y-3">
+                </Image>
+            </a>
+
+        </div>
+    )
+}

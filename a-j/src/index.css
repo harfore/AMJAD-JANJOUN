@@ -1,0 +1,47 @@
+:root {
+  --background: #ffffff;
+  --max-shoot-image-width-dk: 350px;
+  --max-shoot-image-width-mb: 200px;
+
+  --color-black: #000;
+
+  --title-mb: 1rem;
+  --title-dk: 2rem;
+
+  --bigger-screen: 475px;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Raleway", sans-serif;
+}
+
+* {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body {
+  background: var(--background);
+}
+
+.raleway-amjad {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.close-button {
+  background-color: #000;
+  color: #ffffff;
+  border-radius: 60%;
+  border: none;
+}
