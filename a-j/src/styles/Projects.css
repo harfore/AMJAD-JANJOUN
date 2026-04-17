@@ -154,9 +154,10 @@
     line-height: 1.6;
 }
 
+.project-description,
 .image-description {
     margin-top: 1rem;
-    border-top: 0.5px solid #9e9e9e
+    border-top: 0.5px solid #9e9e9e;
 }
 
 @media (max-width: 768px) {
