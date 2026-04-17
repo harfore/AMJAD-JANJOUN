@@ -7,5 +7,5 @@ Minimalist showcase of fashion design projects, PR Event curation and photograph
 - Editorial and conceptual photography.
 
 ###
-- Description of Amjad's experiences and strengths?
+- Description of Amjad's experiences and strengths.
 - Contact information with direct links : e-mail, Instagram, LinkedIn.
