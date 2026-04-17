@@ -1,4 +1,4 @@
-# Amjad Janjoun
+# [Amjad Janjoun](https://amjadjanjoun.com)
 Minimalist showcase of fashion design projects, PR Event curation and photography work, made with React.
 
 ## Featured Work
