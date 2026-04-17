@@ -33,10 +33,11 @@ function Projects() {
     };
 
     const currentProject = activeProject;
+    const currentImage = currentProject?.images[currentImageIndex];
 
     return (
         <div className="projects-page">
-            <h2 className="header-elements"><a href="/about"> ABOUT AMJAD</a> | <a href="/contact">CONTACT</a></h2>
+            <h2 className="header-elements"><a href="/about"> ABOUT ME</a> | <a href="/contact">CONTACT</a></h2>
             <div className="projects-grid">
                 {projectsReversed?.map((project, projectIndex) => (
                     <div
@@ -89,7 +90,20 @@ function Projects() {
 
                             <div className="description-section">
                                 <h2>{currentProject.title}</h2>
-                                <p>{currentProject.description}</p>
+
+                                {currentProject.description && currentProject.description.trim() && (
+                                    <div className="project-description">
+                                        <p>{currentProject.description}</p>
+                                    </div>
+                                )}
+
+                                {currentImage?.description && (
+                                    <div className="image-description">
+                                        <p className="image-description-text">
+                                            {currentImage.description}
+                                        </p>
+                                    </div>
+                                )}
                             </div>
                         </div>
                     </div>

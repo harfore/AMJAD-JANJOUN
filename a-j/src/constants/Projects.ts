@@ -71,44 +71,16 @@ import page70 from '../assets/images/page70.jpeg';
 const projects = [
     {
         index: 0,
-        title: "PACK YOUR BODY",
+        title: "THE SILHOUETTES",
         images: [
-            { src: page2 },
-            { src: page4 },
+            { src: page18 },
+            { src: page19 },
+            { src: page20 },
         ],
-        description: "Design, création et direction artistique. Vêtements inspirés d'emballage en carton, de corps et de dimensions, transformé en vêtements. Ce projet est réalisé en laine bouillie.",
+        description: "Travail réalisé à partir de 16 silhouettes. Au but d'apprendre à chercher des vêtements de seconde main et de savoir les habiller au quotidien. Avec un vêtement upcyclé."
     },
     {
         index: 1,
-        title: "LE VOILE DU DEUIL",
-        images: [
-            { src: page5 },
-            { src: page6 },
-        ],
-        description: "Design, création, direction artistique et photographie. Projet de guimpe réalisé dans un workshop de knitwear. Inspiré de l'artiste Majd Abdel Hamide qui travaille la borderie et qui cherche sa propre manière de faire le deuil.",
-    },
-    {
-        index: 2,
-        title: "THE FLYING COAT",
-        images: [
-            { src: page7 },
-            { src: page8 },
-            { src: page9 },
-        ],
-        description: "Design, création et direction artistique. Projet inspiré des tenues des danseurs de Soufie, de la guerre et du temps. Ce projet est réalisé en laine et en polyester.",
-    },
-    {
-        index: 3,
-        title: "THE GRAPHIC SHIRT",
-        images: [
-            { src: page10 },
-            { src: page11 },
-        ],
-        description: "Design, création, direction artistique et photographique. Projet réalisé dans le but de trouver une harmonie, et de créer un vêtement avec des motifs de rayures différents. Ce vêtement est créé à partir de trois tissus en polyester et en coton. Le shooting photo a eu lieu à l'espace Monte-Cristo, devant l'oeuvre de Manurel Merida intitulée Ordre et désordre. Une vidéo a été produite à l'exposition de ce projet en collaboration avec Hélène Dinke.",
-
-    },
-    {
-        index: 4,
         title: "LN MAGAZINE",
         images: [
             { src: page12 },
@@ -121,17 +93,7 @@ const projects = [
         description: "Travail au but de montrer mon univers et mes inspirations quotidiennes, et de développement des compétences sur indesign."
     },
     {
-        index: 5,
-        title: "THE SILHOUETTES",
-        images: [
-            { src: page18 },
-            { src: page19 },
-            { src: page20 },
-        ],
-        description: "Travail réalisé à partir de 16 silhouettes. Au but d'apprendre à chercher des vêtements de seconde main et de savoir les habiller au quotidien. Avec un vêtement upcyclé."
-    },
-    {
-        index: 6,
+        index: 2,
         title: "PROJECT 7",
         images: [
             { src: page21 },
@@ -139,6 +101,44 @@ const projects = [
             { src: page23 }
         ],
         description: "Traitement d'un sujet sur les matières premières. La première image est nature morte minimale composée d'une assiette en argile blanche, d'un amas de farine et d'un verre d'eau croupie. J'ai voulu dénoncer les conditions de vie des victimes de guerre. Malgré tout le confort que l'on a pu avoir avant le conflit, la guerre nous a renvoyé à quelque chose de plus archaïque. Dans la matière première, je vois un retour à l'état primitif. Avant le beurre existait le lait et avant le pain existait la farine. L'assiette est l'allégorie de cette conditions humaine, j'ai opté pour l'argile car dans les croyances islamiques, il est dit qu'Adam a été crée d'un mélange d'argiles. La perforation en son centre symoblise un manque qui est nécessaire à la stabilité de tout être humain, la matière première pour un esprit sain : la sécurité."
+    },
+    {
+        index: 3,
+        title: "SOUFIE COAT",
+        images: [
+            { src: page7 },
+            { src: page8 },
+            { src: page9 },
+        ],
+        description: "Design, création et direction artistique. Projet inspiré des tenues des danseurs de Soufie, de la guerre et du temps. Ce projet est réalisé en laine et en polyester.",
+    },
+    {
+        index: 4,
+        title: "ABSENCE",
+        images: [
+            { src: page5 },
+            { src: page6 },
+        ],
+        description: "Design, création, direction artistique et photographie. Projet de guimpe réalisé dans un workshop de knitwear. J'ai construit ce projet autour du deuil et de la réparation. Inspiré par Majd Abdel Hamid et sa pratique de la borderie comme geste lent et réparateur, le projet développe une vision personnelle du deuil : une forme de disparition temporaire, nécessaire au processus de reconstruction. À travers les matières et les textures, la guimpe devient un espace d'isolement et de transparence.",
+    },
+    {
+        index: 5,
+        title: "PACK YOUR BODY",
+        images: [
+            { src: page2 },
+            { src: page4 },
+        ],
+        description: "Design, création et direction artistique. Vêtements inspirés d'emballage en carton, de corps et de dimensions, transformé en vêtements. Ce projet est réalisé en laine bouillie.",
+    },
+    {
+        index: 6,
+        title: "THE GRAPHIC SHIRT",
+        images: [
+            { src: page10 },
+            { src: page11 },
+        ],
+        description: "Design, création, direction artistique et photographique. Projet réalisé dans le but de trouver une harmonie, et de créer un vêtement avec des motifs de rayures différents. Ce vêtement est créé à partir de trois tissus en polyester et en coton. Le shooting photo a eu lieu à l'espace Monte-Cristo, devant l'oeuvre de Manurel Merida intitulée Ordre et désordre. Une vidéo a été produite à l'exposition de ce projet en collaboration avec Hélène Dinke.",
+
     },
     {
         index: 7,
@@ -163,13 +163,13 @@ const projects = [
         index: 9,
         title: "PHOTOGRAPHY",
         images: [
+            { src: page33 },
             { src: page27 },
             { src: page28 },
             { src: page29 },
             { src: page30 },
             { src: page31 },
             { src: page32 },
-            { src: page33 },
             { src: page69 },
             { src: page70 },
         ],
@@ -196,7 +196,7 @@ const projects = [
     },
     {
         index: 12,
-        title: "FRÉDÉRIC CONSTANT EVENT AT LE BON MARCHÉ RIVE GAUCHE SALON PRIVÉ",
+        title: "FRÉDÉRIQUE CONSTANT EVENT AT LE BON MARCHÉ RIVE GAUCHE SALON PRIVÉ",
         images: [
             { src: page52 },
             { src: page53 },
@@ -206,18 +206,18 @@ const projects = [
         index: 13,
         title: "PR EVENTS",
         images: [
-            { src: page54 },
-            { src: page55 },
-            { src: page56 },
-            { src: page57 },
-            { src: page58 },
-            { src: page59 },
-            { src: page60 },
-            { src: page61 },
-            { src: page65 },
-            { src: page66 },
-            { src: page67 },
-            { src: page68 }
+            { src: page54, description: "Acne Studios" },
+            { src: page55, description: "Acne Studios" },
+            { src: page56, description: "Undercover" },
+            { src: page57, description: "Undercover" },
+            { src: page58, description: "Robert Wun" },
+            { src: page59, description: "Robert Wun" },
+            { src: page60, description: "Le Grand Dîner du Louvre" },
+            { src: page61, description: "Le Grand Dîner du Louvre" },
+            { src: page65, description: "Schiaparelli" },
+            { src: page66, description: "Isabel Marant" },
+            { src: page67, description: "Magliano" },
+            { src: page68, description: "Magliano" }
         ]
     },
     {

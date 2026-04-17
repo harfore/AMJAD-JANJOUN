@@ -7,8 +7,10 @@ function About() {
     return (
         <div className='about_card'>
             <img src={about_amjad} alt="Amjad Janjoun" className='main_image' />
-            <h2 className='main_title'>{about_title}</h2>
-            <p className='main_paragraph'>{about_paragraph}</p>
+            <div className="dk-right">
+                <h2 className='main_title'>{about_title}</h2>
+                <p className='main_paragraph'>{about_paragraph}</p>
+            </div>
         </div>
     )
 }
