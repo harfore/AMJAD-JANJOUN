@@ -1,2 +1,7 @@
-# AMJAD JANJOUN
-Minimalist showcase of fashion design projects, curation of PR Events and photography work.
+# Amjad Janjoun
+Minimalist showcase of fashion design projects, PR Event curation and photography work, made with React.
+
+## Featured Work
+- Visual archive of fashion concepts.
+- Public Relation event documentation: Frédérique Constant, Acne Studios, Schiaparelli..
+- Editorial and conceptual photography.
