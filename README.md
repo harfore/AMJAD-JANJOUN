@@ -6,6 +6,6 @@ Minimalist showcase of fashion design projects, PR Event curation and photograph
 - Public Relation event documentation: Frédérique Constant, Acne Studios, Schiaparelli..
 - Editorial and conceptual photography.
 
-###
+### Extra
 - Description of Amjad's experiences and strengths.
-- Contact information with direct links : e-mail, Instagram, LinkedIn.
+- Contact information with direct links.
