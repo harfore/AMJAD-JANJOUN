@@ -1,2 +1,2 @@
 # AMJAD JANJOUN
-Showcase of fashion design projects.
+Minimalist showcase of fashion design projects, curation of PR Events and photography work.
