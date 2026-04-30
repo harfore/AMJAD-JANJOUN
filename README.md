@@ -1,5 +1,5 @@
 # [Amjad Janjoun](https://amjadjanjoun.com)
-Minimalist showcase of fashion design projects, PR Event curation and photography work. Made with React.
+Minimalist showcase of fashion design projects, PR Event curation and photography work.
 
 ## Featured Work
 - Visual archive of fashion concepts.
@@ -9,3 +9,5 @@ Minimalist showcase of fashion design projects, PR Event curation and photograph
 ## Extra
 - Description of Amjad's experiences and strengths.
 - Contact information with direct links.
+
+Made with React.
