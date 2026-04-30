@@ -58,15 +58,32 @@ import page58 from '../assets/images/page58.jpeg';
 import page59 from '../assets/images/page59.jpeg';
 import page60 from '../assets/images/page60.jpeg';
 import page61 from '../assets/images/page61.jpeg';
-import page62 from '../assets/images/page62.jpeg';
-import page63 from '../assets/images/page63.jpeg';
-import page64 from '../assets/images/page64.jpeg';
+// import page62 from '../assets/images/page62.jpeg';
+// import page63 from '../assets/images/page63.jpeg';
+// import page64 from '../assets/images/page64.jpeg';
 import page65 from '../assets/images/page65.jpeg';
 import page66 from '../assets/images/page66.jpeg';
 import page67 from '../assets/images/page67.jpeg';
 import page68 from '../assets/images/page68.jpeg';
 import page69 from '../assets/images/page69.jpeg';
 import page70 from '../assets/images/page70.jpeg';
+import page71 from '../assets/images/page71.png';
+import page72 from '../assets/images/page72.png';
+import page73 from '../assets/images/page73.png';
+import page74 from '../assets/images/page74.png';
+import page75 from '../assets/images/page75.jpeg';
+import page76 from '../assets/images/page76.jpeg';
+import page77 from '../assets/images/page77.jpeg';
+import page78 from '../assets/images/page78.jpeg';
+import page79 from '../assets/images/page79.jpeg';
+import page80 from '../assets/images/page80.jpeg';
+import page81 from '../assets/images/page81.jpeg';
+import page82 from '../assets/images/page82.jpeg';
+import page83 from '../assets/images/page83.jpeg';
+import page84 from '../assets/images/page84.jpeg';
+import page85 from '../assets/images/page85.jpeg';
+import page86 from '../assets/images/page86.jpeg';
+import page87 from '../assets/images/page87.jpeg';
 
 const projects = [
     {
@@ -152,15 +169,36 @@ const projects = [
     },
     {
         index: 8,
-        title: "",
+        title: "IMAGE CITIZEN : TSUYODA SHORE",
         images: [
-            { src: page62 },
-            { src: page63 },
-            { src: page64 }
+            { src: page75 },
+            { src: page76 },
+            { src: page77 },
+            { src: page78 },
+            { src: page79 },
+            { src: page80 },
+            { src: page81 },
+            { src: page82 },
+            { src: page83 },
+            { src: page84 },
+            { src: page85 },
+            { src: page86 },
+            { src: page87 },
         ]
+
     },
     {
         index: 9,
+        title: "IMAGE CITIZEN : TSUNO CHIRON",
+        images: [
+            { src: page71 },
+            { src: page72 },
+            { src: page73 },
+            { src: page74 },
+        ]
+    },
+    {
+        index: 10,
         title: "PHOTOGRAPHY",
         images: [
             { src: page33 },
@@ -176,7 +214,7 @@ const projects = [
         description: " "
     },
     {
-        index: 10,
+        index: 11,
         title: "SNS CONTENT",
         images: [
             { src: page34 },
@@ -185,7 +223,7 @@ const projects = [
         description: " "
     },
     {
-        index: 11,
+        index: 12,
         title: "SUPER TITANIUM EVENT",
         images: [
             { src: page48 },
@@ -195,7 +233,7 @@ const projects = [
         ],
     },
     {
-        index: 12,
+        index: 13,
         title: "FRÉDÉRIQUE CONSTANT EVENT AT LE BON MARCHÉ RIVE GAUCHE SALON PRIVÉ",
         images: [
             { src: page52 },
@@ -203,7 +241,7 @@ const projects = [
         ]
     },
     {
-        index: 13,
+        index: 14,
         title: "PR EVENTS",
         images: [
             { src: page54, description: "Acne Studios" },
@@ -221,7 +259,7 @@ const projects = [
         ]
     },
     {
-        index: 14,
+        index: 15,
         title: "CITIZEN PRESS DAY",
         images: [
             { src: page42 },
@@ -233,7 +271,7 @@ const projects = [
         ],
     },
     {
-        index: 15,
+        index: 16,
         title: "CITIZEN WATCH IMAGE",
         images: [
             { src: page36 },
