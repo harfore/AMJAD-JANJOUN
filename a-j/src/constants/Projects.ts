@@ -169,7 +169,7 @@ const projects = [
     },
     {
         index: 8,
-        title: "IMAGE CITIZEN : TSUYODA SHORE",
+        title: "IMAGE CITIZEN : TSUYOSA SHORE",
         images: [
             { src: page75 },
             { src: page76 },
