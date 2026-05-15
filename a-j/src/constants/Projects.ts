@@ -155,7 +155,6 @@ const projects = [
             { src: page11 },
         ],
         description: "Design, création, direction artistique et photographique. Projet réalisé dans le but de trouver une harmonie, et de créer un vêtement avec des motifs de rayures différents. Ce vêtement est créé à partir de trois tissus en polyester et en coton. Le shooting photo a eu lieu à l'espace Monte-Cristo, devant l'oeuvre de Manurel Merida intitulée Ordre et désordre. Une vidéo a été produite à l'exposition de ce projet en collaboration avec Hélène Dinke.",
-
     },
     {
         index: 7,
@@ -169,7 +168,7 @@ const projects = [
     },
     {
         index: 8,
-        title: "IMAGE CITIZEN : TSUYOSA SHORE",
+        title: "IMAGE CITIZEN : TSUNO CHRONO",
         images: [
             { src: page75 },
             { src: page76 },
@@ -184,21 +183,15 @@ const projects = [
             { src: page85 },
             { src: page86 },
             { src: page87 },
-        ]
-
-    },
-    {
-        index: 9,
-        title: "IMAGE CITIZEN : TSUNO CHIRON",
-        images: [
             { src: page71 },
             { src: page72 },
             { src: page73 },
             { src: page74 },
         ]
+
     },
     {
-        index: 10,
+        index: 9,
         title: "PHOTOGRAPHY",
         images: [
             { src: page33 },
@@ -214,7 +207,7 @@ const projects = [
         description: " "
     },
     {
-        index: 11,
+        index: 10,
         title: "SNS CONTENT",
         images: [
             { src: page34 },
@@ -223,7 +216,7 @@ const projects = [
         description: " "
     },
     {
-        index: 12,
+        index: 11,
         title: "SUPER TITANIUM EVENT",
         images: [
             { src: page48 },
@@ -233,7 +226,7 @@ const projects = [
         ],
     },
     {
-        index: 13,
+        index: 12,
         title: "FRÉDÉRIQUE CONSTANT EVENT AT LE BON MARCHÉ RIVE GAUCHE SALON PRIVÉ",
         images: [
             { src: page52 },
@@ -241,7 +234,7 @@ const projects = [
         ]
     },
     {
-        index: 14,
+        index: 13,
         title: "PR EVENTS",
         images: [
             { src: page54, description: "Acne Studios" },
@@ -259,7 +252,7 @@ const projects = [
         ]
     },
     {
-        index: 15,
+        index: 14,
         title: "CITIZEN PRESS DAY",
         images: [
             { src: page42 },
@@ -271,8 +264,8 @@ const projects = [
         ],
     },
     {
-        index: 16,
-        title: "CITIZEN WATCH IMAGE",
+        index: 15,
+        title: "IMAGE CITIZEN : TSUYOSA SHORE",
         images: [
             { src: page36 },
             { src: page37 },
