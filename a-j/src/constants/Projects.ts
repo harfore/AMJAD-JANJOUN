@@ -168,30 +168,6 @@ const projects = [
     },
     {
         index: 8,
-        title: "IMAGE CITIZEN : TSUNO CHRONO",
-        images: [
-            { src: page75 },
-            { src: page76 },
-            { src: page77 },
-            { src: page78 },
-            { src: page79 },
-            { src: page80 },
-            { src: page81 },
-            { src: page82 },
-            { src: page83 },
-            { src: page84 },
-            { src: page85 },
-            { src: page86 },
-            { src: page87 },
-            { src: page71 },
-            { src: page72 },
-            { src: page73 },
-            { src: page74 },
-        ]
-
-    },
-    {
-        index: 9,
         title: "PHOTOGRAPHY",
         images: [
             { src: page33 },
@@ -205,6 +181,24 @@ const projects = [
             { src: page70 },
         ],
         description: " "
+    },
+    {
+        index: 9,
+        title: "PR EVENT PARTICIPATION",
+        images: [
+            { src: page54, description: "Acne Studios" },
+            { src: page55, description: "Acne Studios" },
+            { src: page56, description: "Undercover" },
+            { src: page57, description: "Undercover" },
+            { src: page58, description: "Robert Wun" },
+            { src: page59, description: "Robert Wun" },
+            { src: page60, description: "Le Grand Dîner du Louvre" },
+            { src: page61, description: "Le Grand Dîner du Louvre" },
+            { src: page65, description: "Schiaparelli" },
+            { src: page66, description: "Isabel Marant" },
+            { src: page67, description: "Magliano" },
+            { src: page68, description: "Magliano" }
+        ]
     },
     {
         index: 10,
@@ -235,7 +229,7 @@ const projects = [
     },
     {
         index: 13,
-        title: "PR EVENTS",
+        title: "PR EVENT PARTICIPATION",
         images: [
             { src: page54, description: "Acne Studios" },
             { src: page55, description: "Acne Studios" },
@@ -275,6 +269,29 @@ const projects = [
             { src: page41 }
         ],
         description: " "
+    },
+    {
+        index: 16,
+        title: "IMAGE CITIZEN : TSUNO CHRONO",
+        images: [
+            { src: page75 },
+            { src: page76 },
+            { src: page77 },
+            { src: page78 },
+            { src: page79 },
+            { src: page80 },
+            { src: page81 },
+            { src: page82 },
+            { src: page83 },
+            { src: page84 },
+            { src: page85 },
+            { src: page86 },
+            { src: page87 },
+            { src: page71 },
+            { src: page72 },
+            { src: page73 },
+            { src: page74 },
+        ]
     },
 ];
 
