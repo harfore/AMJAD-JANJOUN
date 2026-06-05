@@ -184,24 +184,6 @@ const projects = [
     },
     {
         index: 9,
-        title: "PR EVENT PARTICIPATION",
-        images: [
-            { src: page54, description: "Acne Studios" },
-            { src: page55, description: "Acne Studios" },
-            { src: page56, description: "Undercover" },
-            { src: page57, description: "Undercover" },
-            { src: page58, description: "Robert Wun" },
-            { src: page59, description: "Robert Wun" },
-            { src: page60, description: "Le Grand Dîner du Louvre" },
-            { src: page61, description: "Le Grand Dîner du Louvre" },
-            { src: page65, description: "Schiaparelli" },
-            { src: page66, description: "Isabel Marant" },
-            { src: page67, description: "Magliano" },
-            { src: page68, description: "Magliano" }
-        ]
-    },
-    {
-        index: 10,
         title: "SNS CONTENT",
         images: [
             { src: page34 },
@@ -210,7 +192,7 @@ const projects = [
         description: " "
     },
     {
-        index: 11,
+        index: 10,
         title: "SUPER TITANIUM EVENT",
         images: [
             { src: page48 },
@@ -220,7 +202,7 @@ const projects = [
         ],
     },
     {
-        index: 12,
+        index: 11,
         title: "FRÉDÉRIQUE CONSTANT EVENT AT LE BON MARCHÉ RIVE GAUCHE SALON PRIVÉ",
         images: [
             { src: page52 },
@@ -228,7 +210,7 @@ const projects = [
         ]
     },
     {
-        index: 13,
+        index: 12,
         title: "PR EVENT PARTICIPATION",
         images: [
             { src: page54, description: "Acne Studios" },
@@ -246,7 +228,7 @@ const projects = [
         ]
     },
     {
-        index: 14,
+        index: 13,
         title: "CITIZEN PRESS DAY",
         images: [
             { src: page42 },
@@ -258,7 +240,7 @@ const projects = [
         ],
     },
     {
-        index: 15,
+        index: 14,
         title: "IMAGE CITIZEN : TSUYOSA SHORE",
         images: [
             { src: page36 },
@@ -271,7 +253,7 @@ const projects = [
         description: " "
     },
     {
-        index: 16,
+        index: 15,
         title: "IMAGE CITIZEN : TSUNO CHRONO",
         images: [
             { src: page75 },
