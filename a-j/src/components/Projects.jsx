@@ -35,6 +35,14 @@ function Projects() {
     const currentProject = activeProject;
     const currentImage = currentProject?.images[currentImageIndex];
 
+    const isVideo = (file) => {
+        if (!file) return false;
+        if (typeof file === 'string') {
+            return file.endsWith('.mp4') 
+        };
+        return false
+    };
+
     return (
         <div className="projects-page">
             <h2 className="header-elements"><a href="/about"> ABOUT ME</a> | <a href="/contact">CONTACT</a></h2>
@@ -45,11 +53,22 @@ function Projects() {
                         className="project-preview"
                         onClick={() => openProject(project)}
                     >
+                        {isVideo(project.images[0].src) ? ( 
+                                <video 
+                                src={project.images[0].src}
+                                className="project-thumbnail"
+                                muted
+                                loop
+                                playsInline
+                                style={{ objectFit: 'cover' }}
+                            />
+                        ): (
                         <img
                             src={project.images[0].src}
                             alt={project.title}
                             className="project-thumbnail"
                         />
+                        )}
                         <h1>{project.title}</h1>
                     </div>
                 ))}
@@ -62,11 +81,24 @@ function Projects() {
 
                         <div className="modal-layout">
                             <div className="carousel-section">
+                                {isVideo(currentImage?.src) ? (
+                                        <video 
+        controls
+        autoPlay
+        playsInline
+        style={{ maxHeight: '70vh', width: '100%' }}
+        className="carousel-video"
+    >
+        <source src={currentImage.src} type="video/mp4" />
+        Your browser does not support the video tag.
+    </video>
+                                ) : (
                                 <img
                                     src={currentProject.images[currentImageIndex].src}
                                     alt={`${currentProject.title} - ${currentImageIndex + 1}`}
                                     className="carousel-image"
                                 />
+                                )}
 
                                 {currentProject.images.length > 1 && (
                                     <>
@@ -80,7 +112,7 @@ function Projects() {
                                         <img
                                             key={idx}
                                             src={image.src}
-                                            alt={`Thumbnail ${idx + 1}`}
+                                            alt={`${idx + 1}`}
                                             className={`thumbnail ${idx === currentImageIndex ? 'active' : ''}`}
                                             onClick={() => setCurrentImageIndex(idx)}
                                         />

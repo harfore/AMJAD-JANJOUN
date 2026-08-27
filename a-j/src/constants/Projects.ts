@@ -84,6 +84,18 @@ import page84 from '../assets/images/page84.jpeg';
 import page85 from '../assets/images/page85.jpeg';
 import page86 from '../assets/images/page86.jpeg';
 import page87 from '../assets/images/page87.jpeg';
+import page89 from '../assets/images/0g1.png';
+import page90 from '../assets/images/0g2.png';
+import page91 from '../assets/images/0g3.png';
+import page92 from '../assets/images/0g4.png';
+import page93 from '../assets/images/0g5.png';
+import page94 from '../assets/images/0g6.png';
+import page95 from '../assets/images/0g7.png';
+import page96 from '../assets/images/0g8.png';
+import page97 from '../assets/images/indesign.jpg';
+
+const page88 = '/videos/documentary.mp4';
+const page98 = '/videos/beer.mp4';
 
 const projects = [
     {
@@ -273,6 +285,41 @@ const projects = [
             { src: page72 },
             { src: page73 },
             { src: page74 },
+        ]
+    },
+    {
+        index:16,
+        title: "",
+        images:[
+        {src: page88, description: "Court métrage réalisé dans le cadre de mon année scolaire. J'ai été réalisateur de ce projet et je me suis également principalement occupé de la direction artistique, de l'image, du casting, de la production, du repérage des lieux et du stying."},
+        ]
+    },
+    {
+        index: 17,
+        title: "0gramme",
+        images: [
+            {src: page89, description: "Réalisé avec Lisa Barbone"},
+            {src: page90},
+            {src: page91},
+            {src: page92, description: "MOODBOARD"},
+            {src: page93, description: "EXPÉRIMENTATION DE LOGO"},
+            {src: page94, description: "EXPÉRIMENTATION DE LOGO"},
+            {src: page95, description: "LOGO ET DÉCLINAISONS"},
+            {src: page96, description: "PROTOTYPES PACKAGING"},
+        ]
+    },
+    {
+        index: 18,
+        title: "",
+        images:[
+            {src: page97, description: "Adaptation de taille sur indesign pour les page de publicité en magazine."},
+        ]
+    },
+    {
+        index: 18,
+        title: "",
+        images:[
+            {src: page98},
         ]
     },
 ];
