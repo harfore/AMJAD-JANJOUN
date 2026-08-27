@@ -289,7 +289,7 @@ const projects = [
     },
     {
         index:16,
-        title: "",
+        title: "UN PAS D'AVANCE",
         images:[
         {src: page88, description: "Court métrage réalisé dans le cadre de mon année scolaire. J'ai été réalisateur de ce projet et je me suis également principalement occupé de la direction artistique, de l'image, du casting, de la production, du repérage des lieux et du stying."},
         ]
@@ -310,16 +310,16 @@ const projects = [
     },
     {
         index: 18,
-        title: "",
+        title: "CITIZEN AD",
         images:[
             {src: page97, description: "Adaptation de taille sur indesign pour les page de publicité en magazine."},
         ]
     },
     {
         index: 18,
-        title: "",
+        title: "REEB",
         images:[
-            {src: page98},
+            {src: page98, description: "Nous avons réalisé une publicité pour une bière sans alcool, avec l'objectif de mettre en avant l'image et l'univers que la marque souhaite véhiculer. Nous avons cherché à créer une esthétique cohérente avec les attentes du client et à transmettre une identité visuelle forte à travers la publicité. Sur ce projet, je me suis principalement occupé du casting, du styling et du repérage des lieux, afin de construire une direction artistique cohérente avec l'univers imaginé pour la campagne."},
         ]
     },
 ];
